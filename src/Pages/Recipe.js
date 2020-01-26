@@ -2,6 +2,8 @@ import React,{useState,useEffect} from 'react';
 import * as api from '../Util/api'
 import Loader from "../Component/Loaders/Loader";
 import './Recipe.css'
+import Search from "../Component/Search";
+import {Route} from "react-router";
 
 const Recipe = () => {
     const [recipe,setRecipe] = useState(null)

@@ -14,9 +14,12 @@ const Search = ({ history }) => {
         setQuery('')
         history.push('/recipescard')
     };
+
+
+
     return (
         <div>
-        <div className="search_box">
+        <div className='search_box'>
             <form onSubmit={getRecipes}>
                 <input type='text'
                        className='search_text'
@@ -25,7 +28,6 @@ const Search = ({ history }) => {
                        placeholder={'Search'}
                        name='query'
                 />
-
                 <button className='search_btn'>Search</button>
             </form>
         </div>

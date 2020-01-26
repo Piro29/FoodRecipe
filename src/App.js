@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import Home from "./Pages/Home";
 import RecipesCard from "./Pages/RecipesCard";
 import Recipe from "./Pages/Recipe";
@@ -7,6 +7,9 @@ import './App.css'
 import Search from "./Component/Search";
 
 const App = () => {
+    useEffect(() => {
+        document.title = "Food Recipe"
+    }, []);
     return (
             <div className='app'>
                 <Link to="/" className='title'>Food Recipe</Link>

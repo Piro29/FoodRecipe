@@ -3,6 +3,9 @@ import {RecipesContext} from "../Util/Context/RecipesContext";
 import * as api from '../Util/api'
 import Card from "../Component/Card";
 import Loader from "../Component/Loaders/Loader";
+import './RecipesCard.css'
+import Search from "../Component/Search";
+import {Route} from "react-router";
 
 const RecipesCard = () => {
     const {searchQuery} = useContext(RecipesContext)
@@ -40,6 +43,7 @@ const RecipesCard = () => {
 
 
     return (
+
         <div className='Recipes'>
             {recipesShow()}
         </div>
