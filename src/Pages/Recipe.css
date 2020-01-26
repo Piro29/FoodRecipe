@@ -1,5 +1,5 @@
 .Recipe{
-    width: 850px;
+    width: 850px auto;
     display: flex;
     padding: 20px;
     margin: 120px auto;
@@ -8,17 +8,27 @@
 }
 
 .Recipe img{
-    /*width: 48%;*/
+    width: 350px;
     height: 250px;
+    margin-top: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
     display: block;
 }
 .Recipe_ingredients{
-    padding: 0 20px;
+    padding:0 , 20px;
+    /* margin-top: 300px; */
+    margin-left: 50px;
     color: white;
 }
 
 .Recipe_title{
     margin-bottom: 20px;
+}
+
+iframe{
+    /* margin-left: 300px;  */
+    /* margin-top: -20em; */
+    height: 250px;
+    width: 350px;
 }
