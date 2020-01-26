@@ -1,5 +1,5 @@
 .recipe_view{
-    margin-top: 20em;
+    margin-top: 30em;
 }
 
 .collapse {
@@ -55,9 +55,12 @@
 
 .add_button{
     position: absolute;
-    left: 47%;
-    top: 40%;
-    width: 90px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    left: 43.6%;
+    top: 55%;
+    width: 200px;
     /*left: 47%;*/
     height: 60px;
     outline: none;

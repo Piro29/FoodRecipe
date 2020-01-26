@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import './Home.css'
+import Search from "../Component/Search";
+import {Route} from "react-router";
 
 class Home extends Component {
     state = {
@@ -92,7 +94,7 @@ class Home extends Component {
                             <h1>Add new Recipe</h1>
                             <label>Recipe Name</label>
                             <input type="text"
-                                   required
+                                   required="required"
                                    placeholder='Enter Recipe Name'
                                    value={this.state.newRecipe.recipeName}
                                    onChange={(event) => this.UpdateNewRecipe(event.target.value, this.state.newRecipe.ingredients,this.state.newRecipe.process)}
@@ -100,7 +102,7 @@ class Home extends Component {
 
                             <label>Ingredients</label>
                             <input type="textarea"
-                                   required
+                                   required="required"
                                    placeholder='Ingredients(Seperated By Commas)'
                                    value={this.state.newRecipe.ingredients}
                                    onChange={(event) => this.UpdateNewRecipe(this.state.newRecipe.recipeName, event.target.value.split(","),this.state.newRecipe.process)}
@@ -115,6 +117,7 @@ class Home extends Component {
                             <button className='submit_btn'
                                     onClick={(event) => this.saveNewRecipe()}>Add
                             </button>
+                            &nbsp;&nbsp;&nbsp;
                             <button type='button'
                                     className='cancel_btn'
                                     onClick={this.toggleRecipe}>Close
