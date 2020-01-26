@@ -77,7 +77,7 @@
 }
 
 .form_popup{
-    top: 20%;
+    top: 15%;
     /*float: left;*/
     position: fixed;
     /*display: flex;*/
@@ -89,6 +89,7 @@
     width: 50em;
     height: 29em;
     z-index: 1;
+    background-color:papayawhip;
 }
 
 .form_container input{
@@ -96,7 +97,7 @@
     padding: 10px;
     margin: 5px 0 30px 0px;
     font-size: 15px;
-    background-color: #ddd;
+    background-color: papayawhip;
 
     /*size: 50px;*/
 }
@@ -108,7 +109,7 @@
     margin-bottom: 6px;
     font-size: 15px;
     resize: none;
-    background-color: #ddd;
+    background-color:papayawhip;
 
 }
 
@@ -130,6 +131,6 @@
     /*background:  rgba(0, 0, 0, .5);*/
 }
 .form_container ,.form_container input{
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 30px;
 }
