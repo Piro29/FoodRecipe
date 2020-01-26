@@ -115,6 +115,7 @@ class Home extends Component {
                             <button className='submit_btn'
                                     onClick={(event) => this.saveNewRecipe()}>Add
                             </button>
+                            &nbsp;&nbsp;
                             <button type='button'
                                     className='cancel_btn'
                                     onClick={this.toggleRecipe}>Close
