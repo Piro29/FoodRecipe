@@ -6,9 +6,11 @@
     margin: 0;
 }
 .app {
-    min-height: 100vh;
+    min-height: 147vh;
     background: url('assets/jjjj.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /* padding: 0 10%; */
 }
 
@@ -84,3 +86,4 @@ button{
 .search_box input::placeholder,.search_box input{
     color:#2f3640;
 }
+
